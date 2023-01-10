@@ -1,3 +1,4 @@
+package maria.fernanda.segundasemana;
 public class MinhaClasse {
     public static void main (String [] args){
         String primeiroNome = "Maria";
