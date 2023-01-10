@@ -1,5 +1,12 @@
-public class App {
+public class TiposVariaveis {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        byte idade = 123;
+		short ano = 2021;
+		int cep = 21070333; 
+		long cpf = 98765432109L;
+		float pi = 3.14F;
+		double salario = 1275.33;
+        String palavra = "Olá";
+        final double PI = 3.14;
     }
 }
