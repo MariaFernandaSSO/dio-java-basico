@@ -1,3 +1,4 @@
+package ex.metodos1;
 public class Emprestimo {
     static double taxa_1 = 0.5;
     static double taxa_2 = 0.8;

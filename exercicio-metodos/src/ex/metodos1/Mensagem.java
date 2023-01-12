@@ -1,3 +1,4 @@
+package ex.metodos1;
 public class Mensagem {
     public static void retornarMensagem(int horario){
         switch (horario) {

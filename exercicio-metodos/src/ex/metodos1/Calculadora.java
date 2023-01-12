@@ -1,3 +1,4 @@
+package ex.metodos1;
 public class Calculadora {
     public static void soma(double a, double b){
         double soma = a + b;
