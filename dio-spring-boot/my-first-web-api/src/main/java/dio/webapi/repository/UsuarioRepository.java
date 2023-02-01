@@ -2,13 +2,18 @@ package dio.webapi.repository;
 import org.springframework.stereotype.Repository;
 import java.util.ArrayList;
 import java.util.List;
+
+import dio.webapi.handler.BusinessException;
+import dio.webapi.handler.CampoObrigatorioException;
 import dio.webapi.model.Usuario;
 
 @Repository
 public class UsuarioRepository {
     public void save(Usuario usuario){
-        if(usuario.getId()==null)
-          System.out.println("SAVE - Recebendo o usuário na camada de repositório");
+        if(usuario.getLogin()==null)
+            throw new CampoObrigatorioException("login");
+        if(usuario.getPassword()==null)
+        throw new CampoObrigatorioException("password");
         else
          System.out.println("UPDATE - Recebendo o usuário na camada de repositório");
         
