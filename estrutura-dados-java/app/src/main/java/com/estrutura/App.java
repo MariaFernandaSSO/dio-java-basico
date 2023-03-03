@@ -23,17 +23,17 @@ public class App
 
         System.out.println("---------- Fila -----------");
 
-        Fila minhaFila = new Fila();
+        Fila<String> minhaFila = new Fila<>();
         
-        minhaFila.enqueue(new com.estrutura.filas.No("primeiro"));
-        minhaFila.enqueue(new com.estrutura.filas.No("segundo"));
-        minhaFila.enqueue(new com.estrutura.filas.No("terceiro"));
-        minhaFila.enqueue(new com.estrutura.filas.No("quarto"));
+        minhaFila.enqueue("primeiro");
+        minhaFila.enqueue("segundo");
+        minhaFila.enqueue("terceiro");
+        minhaFila.enqueue("quarto");
 
         System.out.println(minhaFila);
         System.out.println(minhaFila.dequeue());
         System.out.println(minhaFila);
-        minhaFila.enqueue(new com.estrutura.filas.No("ultimo"));
+        minhaFila.enqueue("ultimo");
         System.out.println(minhaFila);
         System.out.println(minhaFila.first());
         System.out.println(minhaFila);
