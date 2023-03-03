@@ -1,5 +1,4 @@
 package com.estrutura.pilha;
-import com.estrutura.No;
 
 public class Pilha {
     No refNoEntradaPilha = null;

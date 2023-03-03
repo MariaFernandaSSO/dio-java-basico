@@ -1,4 +1,4 @@
-package com.estrutura;
+package com.estrutura.pilha;
 
 public class No {
     private int dado;
