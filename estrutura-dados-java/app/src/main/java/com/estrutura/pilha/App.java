@@ -1,7 +1,5 @@
 package com.estrutura.pilha;
 
-import com.estrutura.filas.Fila;
-
 public class App 
 {
     public static void main( String[] args )
