@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/collection-list-ex/collection-list-ex.iml" filepath="$PROJECT_DIR$/collection-list-ex/collection-list-ex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/collection-map-ex/collection-map-ex.iml" filepath="$PROJECT_DIR$/collection-map-ex/collection-map-ex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/collection-set-ex/collection-set-ex.iml" filepath="$PROJECT_DIR$/collection-set-ex/collection-set-ex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/desafio-poo/desafio-poo.iml" filepath="$PROJECT_DIR$/desafio-poo/desafio-poo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/poo.iml" filepath="$PROJECT_DIR$/.idea/poo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/poo-ex-carro/poo-ex-carro.iml" filepath="$PROJECT_DIR$/poo-ex-carro/poo-ex-carro.iml" />
+    </modules>
+  </component>
+</project>
